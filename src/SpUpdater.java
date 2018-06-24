@@ -8,15 +8,17 @@ public class SpUpdater {
 	private String toDirectory = System.getProperty("user.dir") + File.separator;
 
 	public static void main(String[] args) {
-		SpUpdater updater = new SpUpdater();
-		updater.deleteAppFile();
-		updater.unzipUpdateFile();
-		try {
-			Thread.sleep(2000);
-		} catch (InterruptedException e) {
-			e.printStackTrace();
-		}
-		updater.startApp();
+		
+		System.out.println("TEST");
+//		SpUpdater updater = new SpUpdater();
+//		updater.deleteAppFile();
+//		updater.unzipUpdateFile();
+//		try {
+//			Thread.sleep(2000);
+//		} catch (InterruptedException e) {
+//			e.printStackTrace();
+//		}
+//		updater.startApp();
 
 	}
 
