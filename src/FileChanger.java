@@ -8,10 +8,6 @@ import java.util.zip.ZipInputStream;
 
 public class FileChanger {
 
-	/*
-	 * This method unzips files so that they can be renamed and moved via the
-	 * "changeAllFiles" method.
-	 */
 
 	public static void unzip(File source, File destination) throws IOException {
 		byte[] buffer = new byte[1024];
